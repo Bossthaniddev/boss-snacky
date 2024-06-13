@@ -1,0 +1,16 @@
+{
+  "promotions": [
+    {
+      "id": 1,
+      "image_url": "https://www.discmakers.com/images/products/promotional-items/posters-hero2-tablet.jpg"
+    },
+    {
+      "id": 2,
+      "image_url": "https://as1.ftcdn.net/v2/jpg/02/76/64/32/1000_F_276643286_vCiCnaVorSOcskPcBxK46K655txSO9bA.jpg"
+    },
+    {
+      "id": 3,
+      "image_url": "https://www.siamcenter.co.th/public/upload/a6fc5bb02ead4110b68c8aca5551e016.jpeg"
+    }
+  ]
+}

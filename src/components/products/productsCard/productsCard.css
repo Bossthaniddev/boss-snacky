@@ -1,0 +1,30 @@
+.product-card {
+  position: relative;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 140%;
+  border-radius: 30px;
+  margin-bottom: 1rem;
+}
+.product-card .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box-qrcode canvas {
+  width: 227px !important;
+  height: 227px !important;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .product-card:hover::before {
+    opacity: 0.8;
+ }
+  .product-card:hover .btn {
+    transform: translate(-50%, -50%) scale(1);
+ }
+}
